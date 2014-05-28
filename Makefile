@@ -4,17 +4,9 @@
 start install:
 	@npm $@
 
-link: public/css/bootstrap.min.css
-
-start: install link
+start: install
 
 clean:
-	@rm -r node_modules public
+	@rm -r node_modules
 
 .PHONY: start
-
-public/css:
-	@mkdir -p public/css
-
-public/css/bootstrap.min.css: public/css
-	@cp node_modules/bootstrap/dist/css/bootstrap.min.css public/css/bootstrap.min.css
