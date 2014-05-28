@@ -1,0 +1,24 @@
+<Head:>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+<Body:>
+  <h1>Derby Components <small>for Twitter Bootstrap</small></h1>
+
+  <h2>Modals <small>require('d-bootstrap/modal')</small></h2>
+
+  <modal as="exampleModal">
+    <title>Modal</title>
+    <p>Some body text</p>
+    <action class="btn-primary">Ok</action>
+  </modal>
+
+  <button on-click="exampleModal.show()" class="btn btn-default">
+    Show modal
+  </button>
+
+  <h2>Dropdowns <small>require('d-bootstrap/dropdown')</small></h2>
+  <dropdown>
+    <option value="yes">Yay!</option>
+    <option value="no">Boo.</option>
+  </dropdown>
+
