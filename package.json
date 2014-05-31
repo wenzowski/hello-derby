@@ -9,7 +9,7 @@
   "author": "Alexander Wenzowski",
   "license": "MIT",
   "dependencies": {
-    "derby-starter": "https://github.com/wenzowski/derby-starter/archive/v0.1.2-p1.tar.gz",
+    "derby-starter": "git://github.com/wenzowski/derby-starter.git#develop",
     "d-bootstrap": "~0.1.0",
     "bootstrap": "https://github.com/twbs/bootstrap/archive/v3.0.3.tar.gz"
   },
